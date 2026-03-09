@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Mannerings Estates</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/Logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" style="background: url('images/contact.jpg') center/cover no-repeat;">
+    <div class="hero-content">
+        <h1>Contact Mannerings Estates</h1>
+        <p>We’re here to answer your questions</p>
+    </div>
+</section>
+
+<section class="section contact-section">
+    <h2>Get In Touch</h2>
+    <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formMessage" class="form-message"></p>
+    
+    <h2>Our Office</h2>
+    <p>Address: 123 Real Estate Avenue, Nairobi, Kenya</p>
+    <p>Phone: 0737583828 | Email: info@mannerings.co.ke</p>
+    
+    <iframe 
+        src="https://maps.google.com/maps?q=Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+</section>
+
+<footer>
+    <p>&copy; 2026 Mannerings Estates. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
