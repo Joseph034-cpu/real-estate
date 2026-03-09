@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Properties - Mannerings Estates</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/Logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="properties.html" class="active">Properties</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" style="background: url('images/Properties-page.png') center/cover no-repeat;">
+    <div class="hero-content">
+        <h1>Our Properties</h1>
+        <p>Find your dream home or investment property with us.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Filter Properties</h2>
+    <div style="margin-bottom:30px;">
+        <button class="btn filter-btn" data-type="all">All</button>
+        <button class="btn filter-btn" data-type="detached">Detached</button>
+        <button class="btn filter-btn" data-type="semi-detached">Semi-Detached</button>
+        <button class="btn filter-btn" data-type="terraced">Terraced</button>
+    </div>
+
+    <div class="property-grid">
+        <div class="property-card" data-type="detached">
+            <img src="images/detached1.jpg" alt="Detached House">
+            <h3>Detached House</h3>
+            <p>4 Bedrooms, 3 Bathrooms, Spacious Garden</p>
+            <a href="#" class="btn-small">View Details</a>
+        </div>
+        <div class="property-card" data-type="semi-detached">
+            <img src="images/semi-detached1.jpg" alt="Semi-Detached House">
+            <h3>Semi-Detached House</h3>
+            <p>3 Bedrooms, 2 Bathrooms, Modern Interior</p>
+            <a href="#" class="btn-small">View Details</a>
+        </div>
+        <div class="property-card" data-type="terraced">
+            <img src="images/terraced1.jpg" alt="Terraced House">
+            <h3>Terraced House</h3>
+            <p>2 Bedrooms, 1 Bathroom, Cozy & Affordable</p>
+            <a href="#" class="btn-small">View Details</a>
+        </div>
+        <div class="property-card" data-type="detached">
+            <img src="images/living-room.jpg" alt="Detached House 2">
+            <h3>Luxury Detached Villa</h3>
+            <p>5 Bedrooms, Pool, Modern Finish</p>
+            <a href="#" class="btn-small">View Details</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Mannerings Estates. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
