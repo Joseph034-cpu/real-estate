@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terraced Houses | PrimeNest Real Estate</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+/* HERO SECTION */
+
+.hero{
+height:60vh;
+background:url('images/terraced-hero.webp') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:48px;
+background:rgba(0,0,0,0.5);
+padding:20px;
+border-radius:10px;
+}
+
+/* PROPERTY GRID */
+
+.properties{
+padding:80px 10%;
+background:#f5f5f5;
+}
+
+.properties h2{
+text-align:center;
+margin-bottom:50px;
+font-size:36px;
+}
+
+.property-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+/* PROPERTY CARD */
+
+.property-card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.property-card:hover{
+transform:translateY(-10px);
+}
+
+.property-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.property-content{
+padding:20px;
+}
+
+.property-content h3{
+margin-bottom:10px;
+}
+
+.price{
+color:#2c7be5;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#2c7be5;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn:hover{
+background:#1a5dcc;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+<h1>Modern Terraced Houses</h1>
+</section>
+
+<!-- PROPERTY LIST -->
+
+<section class="properties">
+
+<h2>Available Terraced Homes</h2>
+
+<div class="property-grid">
+
+<!-- HOUSE 1 -->
+
+<div class="property-card">
+
+<img src="images/terraced1.jpg" alt="Terraced House">
+
+<div class="property-content">
+
+<h3>Modern Family Terrace</h3>
+
+<p class="price">$280,000</p>
+
+<p>3 Bedrooms • 2 Bathrooms • Parking • Private Patio</p>
+
+<a href="contact.html" class="btn">Contact Agent</a>
+
+</div>
+
+</div>
+
+<!-- HOUSE 2 -->
+
+<div class="property-card">
+
+<img src="images/terraced2.jpg" alt="Terraced House">
+
+<div class="property-content">
+
+<h3>Luxury Urban Terrace</h3>
+
+<p class="price">$320,000</p>
+
+<p>4 Bedrooms • 3 Bathrooms • Balcony • Garage</p>
+
+<a href="contact.html" class="btn">Contact Agent</a>
+
+</div>
+
+</div>
+
+<!-- HOUSE 3 -->
+
+<div class="property-card">
+
+<img src="images/terraced3.jpg" alt="Terraced House">
+
+<div class="property-content">
+
+<h3>City Center Terrace</h3>
+
+<p class="price">$300,000</p>
+
+<p>3 Bedrooms • 2 Bathrooms • Modern Kitchen</p>
+
+<a href="contact.html" class="btn">Contact Agent</a>
+
+</div>
+
+</div>
+
+<!-- HOUSE 4 -->
+
+<div class="property-card">
+
+<img src="images/terraced4.jpg" alt="Terraced House">
+
+<div class="property-content">
+
+<h3>Premium Terrace Residence</h3>
+
+<p class="price">$350,000</p>
+
+<p>4 Bedrooms • 3 Bathrooms • Rooftop Terrace</p>
+
+<a href="contact.html" class="btn">Contact Agent</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 PrimeNest Real Estate. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
